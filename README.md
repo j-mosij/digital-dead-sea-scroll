@@ -1,6 +1,6 @@
 # Digital Dead Sea Scroll — Nux & Null
 
-**Copyright (c) 2026 jeremiahnmosij. Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — no commercial use, no derivatives, attribution required.**
+**Copyright (c) 2026 jeremiahnmosij. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — commercial and non-commercial use allowed with attribution.**
 
 Offline generative system that unrolls fragments of an ancient digital scroll.
 
@@ -37,7 +37,7 @@ No runtime dependencies beyond the Python standard library. Works offline.
 ## Security & Protection
 
 - Pure local script. No client-server surface. If one is added later, keep keys and secrets in a private repository and expose only documentation publicly.
-- Strict IP rules in `LICENSE` and `SECURITY.md`. Unauthorized copying or derivative redistribution is prohibited.
+- Licensed under CC BY 4.0. Attribution required. Commercial use permitted.
 - Builds fail if injection patterns (`eval`, `exec`, `os.system`, `subprocess`, etc.) are detected.
 
 ## Ontology
@@ -52,4 +52,4 @@ Derived from the same arithmetic-weather lineage as bytebeat-trained sequence mo
 
 ---
 
-*jeremiahnmosij — original work, not copied. See LICENSE and SECURITY.md.*
+*jeremiahnmosij — original work. See LICENSE and SECURITY.md.*
