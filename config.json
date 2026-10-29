@@ -1,0 +1,9 @@
+{
+  "order": 4,
+  "default_temp": 1.0,
+  "default_length": 240,
+  "seed": "",
+  "notes": "Optional. Not yet loaded by generative_scroll.py. Future: load for reproducible runs. PQC key material must never be stored here if the repo is public.",
+  "anon": true,
+  "network": false
+}
