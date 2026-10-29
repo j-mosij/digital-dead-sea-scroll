@@ -1,0 +1,13 @@
+# Digital Dead Sea Scroll — runtime dependencies
+# None. Pure Python 3 standard library only.
+#
+# Optional / future (not required for current generative scroll):
+# - pqc: post-quantum cryptography libraries (e.g. for key encapsulation if client/server is added)
+# - json: already in stdlib; config.json may be used for parameters
+# - anon: offline/anonymous operation — no network, no telemetry, no phone-home
+#
+# Example optional pins (do not install unless expanding):
+# # cryptography>=42.0.0   # if symmetric encryption of outputs is desired
+# # pqcrypto               # post-quantum primitives (if available)
+#
+# Continuous security: see .github/workflows/security.yml for injection scans.
