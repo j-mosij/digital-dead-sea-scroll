@@ -1,15 +1,14 @@
 # Security & IP Protection
 
-**Copyright (c) 2026 jeremiahnmosij (j-mosij). All rights reserved under CC BY-NC-ND 4.0.**
+**Copyright (c) 2026 jeremiahnmosij (j-mosij). Licensed under CC BY 4.0.**
 
-## Strict Rules for Anyone Copying or Adding
+## Rules for Use
 
-- This repository and its contents (code, corpus, generated fragments, designs, ontology of Nux and Null) are original work.
-- No unauthorized copying, forking for redistribution, derivative distribution, or commercial use is permitted.
-- Attribution is mandatory if sharing the unmodified original.
+- This repository and its contents (code, corpus, generated fragments, designs, ontology of Nux and Null) are original work by jeremiahnmosij.
+- Licensed under Creative Commons Attribution 4.0 International. Commercial and non-commercial use is allowed. Derivatives and redistribution are allowed.
+- Attribution is mandatory: give credit to jeremiahnmosij and link to the license.
 - Do not remove copyright notices, license headers, or this SECURITY.md.
-- Violations will be addressed (including DMCA notices where applicable).
-- Contributions must preserve the original design intent and will be reviewed for IP compliance. No external code may be added without explicit approval.
+- Contributions must preserve the original design intent.
 
 ## Security Posture
 
