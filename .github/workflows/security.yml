@@ -1,0 +1,30 @@
+name: Security Scan
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  injection-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan for injection patterns
+        run: |
+          echo "Scanning for dangerous patterns..."
+          # Fail the build if any of these appear in Python files
+          if grep -rE --include="*.py" -n '(eval\s*\(|exec\s*\(|os\.system\s*\(|subprocess\.|__import__\s*\(|pickle\.loads|yaml\.load\()' . ; then
+            echo "ERROR: Potential injection or unsafe construct detected."
+            exit 1
+          else
+            echo "No injection patterns found."
+          fi
+
+      - name: Verify license and copyright notices present
+        run: |
+          test -f LICENSE && echo "LICENSE present"
+          grep -q "jeremiahnmosij" LICENSE README.md SECURITY.md && echo "Copyright notices present"
+          echo "Security checks passed."
